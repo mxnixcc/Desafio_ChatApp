@@ -60,7 +60,6 @@ dependencies {
     implementation(libs.androidx.room.common.jvm)
     implementation(libs.androidx.room.runtime.android)
     implementation(libs.firebase.appcheck.ktx)
-    implementation(libs.firebase.messaging.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -83,4 +82,8 @@ dependencies {
     implementation("com.google.code.gson:gson:2.13.1")
 
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
+
+    implementation(platform(libs.firebase))
+    implementation("com.google.firebase:firebase-messaging")
+
 }

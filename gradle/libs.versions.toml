@@ -41,6 +41,9 @@ androidx-room-runtime-android = { group = "androidx.room", name = "room-runtime-
 firebase-appcheck-ktx = { group = "com.google.firebase", name = "firebase-appcheck-ktx", version.ref = "firebaseAppcheckKtx" }
 firebase-messaging-ktx = { group = "com.google.firebase", name = "firebase-messaging-ktx", version.ref = "firebaseMessagingKtx" }
 
+firebase = { group = "com.google.firebase", name = "firebase-bom", version = "33.1.0" }
+
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
