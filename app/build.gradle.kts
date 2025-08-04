@@ -62,6 +62,8 @@ dependencies {
     implementation(libs.firebase.appcheck.ktx)
     implementation(libs.androidx.recyclerview)
     implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.cardview)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -87,5 +89,7 @@ dependencies {
 
     implementation(platform(libs.firebase))
     implementation("com.google.firebase:firebase-messaging")
+
+
 
 }
